@@ -240,6 +240,7 @@ document.querySelectorAll('.carouselngplant .card').forEach(plant => {
             let target = preview.getAttribute('data-target')
             if (name == target){
                 preview.classList.add('active')
+                document.body.style.overflowY= 'hidden'
             }
         })
     }
@@ -249,6 +250,7 @@ previewBox.forEach(close => {
     close.querySelector('.fa-times').onclick = () => {
         close.classList.remove('active')
         previewContainer.style.display = 'none'
+        document.body.style.overflowY= 'scroll'
     }
 })
 
@@ -264,6 +266,7 @@ document.querySelectorAll('.carouselngZomb .card').forEach(zombie => {
             let targetZomb = preview.getAttribute('data-target')
             if (nameZombie == targetZomb){
                 preview.classList.add('active')
+                document.body.style.overflowY= 'hidden'
             }
         })
     }
@@ -273,6 +276,8 @@ previewBoxZomb.forEach(close => {
     close.querySelector('.fa-times').onclick = () => {
         close.classList.remove('active')
         previewContainerZomb.style.display = 'none'
+        document.body.style.overflowY= 'scroll'
+
     }
 })
 
