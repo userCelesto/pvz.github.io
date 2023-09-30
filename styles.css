@@ -57,6 +57,12 @@ header {
 
 }
 
+@media (max-width:599px) {
+    #mobile-nav {
+        display: flex;
+    }
+}
+
 .logo {
     color: var(--main-color);
     font-weight: 600;
