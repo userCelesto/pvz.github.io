@@ -336,6 +336,7 @@ section#zomboss.cd h2, .wrapper-zomb ul li >*, #join.contact h2{
     display: flex;
     justify-content: space-between;
     margin: 0 5%;
+    align-items: center;
     
 }
 
