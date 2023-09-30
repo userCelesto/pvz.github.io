@@ -312,30 +312,45 @@ section#zomboss.cd h2, .wrapper-zomb ul li >*, #join.contact h2{
     transform: translateX(-12px);
 }
 
-.col .social{
+/* .col .social{
     width: 220px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.col .social a {
+} */
+/* 
+.social a {
     height: 40px;
     width: 40px;
     background: var(--main-color);
     color: var(--text-color);
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size:1.5rem ;
     border-radius: 50%;
     transition: .4s;
+    text-align: center;
+} */
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    
 }
+
+.social a i{
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 10px;
+}
+
 
 .col .social a:hover {
     transform: scale(1.2);
     color: var(--bg-color);
-    background: var(--text-color);
+    
 }
 
 
