@@ -228,6 +228,15 @@ section#zomboss.cd h2, .wrapper-zomb ul li >*, #join.contact h2{
 
 }
 
+footer {
+    font-size: 20px;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .s-box {
     text-align: center;
     padding: 20px 30px;
